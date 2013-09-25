@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE1AAD2217F399560046614F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1AAD2117F399560046614F /* Foundation.framework */; };
+		AE1AAD2417F399560046614F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1AAD2317F399560046614F /* CoreGraphics.framework */; };
+		AE1AAD2617F399560046614F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1AAD2517F399560046614F /* UIKit.framework */; };
+		AE1AAD2C17F399560046614F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE1AAD2A17F399560046614F /* InfoPlist.strings */; };
+		AE1AAD2E17F399560046614F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1AAD2D17F399560046614F /* main.m */; };
+		AE1AAD3217F399560046614F /* SCHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1AAD3117F399560046614F /* SCHAppDelegate.m */; };
+		AE1AAD3517F399560046614F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1AAD3317F399560046614F /* Main.storyboard */; };
+		AE1AAD3817F399560046614F /* SCHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1AAD3717F399560046614F /* SCHViewController.m */; };
+		AE1AAD3A17F399560046614F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1AAD3917F399560046614F /* Images.xcassets */; };
+		AE1AAD4117F399560046614F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1AAD4017F399560046614F /* XCTest.framework */; };
+		AE1AAD4217F399560046614F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1AAD2117F399560046614F /* Foundation.framework */; };
+		AE1AAD4317F399560046614F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1AAD2517F399560046614F /* UIKit.framework */; };
+		AE1AAD4B17F399560046614F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE1AAD4917F399560046614F /* InfoPlist.strings */; };
+		AE1AAD4D17F399560046614F /* Swinging_ChickenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1AAD4C17F399560046614F /* Swinging_ChickenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE1AAD4417F399560046614F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE1AAD1617F399560046614F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE1AAD1D17F399560046614F;
+			remoteInfo = "Swinging Chicken";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE1AAD1E17F399560046614F /* Swinging Chicken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swinging Chicken.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1AAD2117F399560046614F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE1AAD2317F399560046614F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE1AAD2517F399560046614F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE1AAD2917F399560046614F /* Swinging Chicken-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Swinging Chicken-Info.plist"; sourceTree = "<group>"; };
+		AE1AAD2B17F399560046614F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE1AAD2D17F399560046614F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE1AAD2F17F399560046614F /* Swinging Chicken-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swinging Chicken-Prefix.pch"; sourceTree = "<group>"; };
+		AE1AAD3017F399560046614F /* SCHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHAppDelegate.h; sourceTree = "<group>"; };
+		AE1AAD3117F399560046614F /* SCHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCHAppDelegate.m; sourceTree = "<group>"; };
+		AE1AAD3417F399560046614F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE1AAD3617F399560046614F /* SCHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHViewController.h; sourceTree = "<group>"; };
+		AE1AAD3717F399560046614F /* SCHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCHViewController.m; sourceTree = "<group>"; };
+		AE1AAD3917F399560046614F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE1AAD3F17F399560046614F /* Swinging ChickenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swinging ChickenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1AAD4017F399560046614F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AE1AAD4817F399560046614F /* Swinging ChickenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Swinging ChickenTests-Info.plist"; sourceTree = "<group>"; };
+		AE1AAD4A17F399560046614F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE1AAD4C17F399560046614F /* Swinging_ChickenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Swinging_ChickenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE1AAD1B17F399560046614F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1AAD2417F399560046614F /* CoreGraphics.framework in Frameworks */,
+				AE1AAD2617F399560046614F /* UIKit.framework in Frameworks */,
+				AE1AAD2217F399560046614F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1AAD3C17F399560046614F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1AAD4117F399560046614F /* XCTest.framework in Frameworks */,
+				AE1AAD4317F399560046614F /* UIKit.framework in Frameworks */,
+				AE1AAD4217F399560046614F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE1AAD1517F399560046614F = {
+			isa = PBXGroup;
+			children = (
+				AE1AAD2717F399560046614F /* Swinging Chicken */,
+				AE1AAD4617F399560046614F /* Swinging ChickenTests */,
+				AE1AAD2017F399560046614F /* Frameworks */,
+				AE1AAD1F17F399560046614F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE1AAD1F17F399560046614F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE1AAD1E17F399560046614F /* Swinging Chicken.app */,
+				AE1AAD3F17F399560046614F /* Swinging ChickenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE1AAD2017F399560046614F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE1AAD2117F399560046614F /* Foundation.framework */,
+				AE1AAD2317F399560046614F /* CoreGraphics.framework */,
+				AE1AAD2517F399560046614F /* UIKit.framework */,
+				AE1AAD4017F399560046614F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE1AAD2717F399560046614F /* Swinging Chicken */ = {
+			isa = PBXGroup;
+			children = (
+				AE1AAD3017F399560046614F /* SCHAppDelegate.h */,
+				AE1AAD3117F399560046614F /* SCHAppDelegate.m */,
+				AE1AAD3317F399560046614F /* Main.storyboard */,
+				AE1AAD3617F399560046614F /* SCHViewController.h */,
+				AE1AAD3717F399560046614F /* SCHViewController.m */,
+				AE1AAD3917F399560046614F /* Images.xcassets */,
+				AE1AAD2817F399560046614F /* Supporting Files */,
+			);
+			path = "Swinging Chicken";
+			sourceTree = "<group>";
+		};
+		AE1AAD2817F399560046614F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE1AAD2917F399560046614F /* Swinging Chicken-Info.plist */,
+				AE1AAD2A17F399560046614F /* InfoPlist.strings */,
+				AE1AAD2D17F399560046614F /* main.m */,
+				AE1AAD2F17F399560046614F /* Swinging Chicken-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE1AAD4617F399560046614F /* Swinging ChickenTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE1AAD4C17F399560046614F /* Swinging_ChickenTests.m */,
+				AE1AAD4717F399560046614F /* Supporting Files */,
+			);
+			path = "Swinging ChickenTests";
+			sourceTree = "<group>";
+		};
+		AE1AAD4717F399560046614F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE1AAD4817F399560046614F /* Swinging ChickenTests-Info.plist */,
+				AE1AAD4917F399560046614F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE1AAD1D17F399560046614F /* Swinging Chicken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1AAD5017F399560046614F /* Build configuration list for PBXNativeTarget "Swinging Chicken" */;
+			buildPhases = (
+				AE1AAD1A17F399560046614F /* Sources */,
+				AE1AAD1B17F399560046614F /* Frameworks */,
+				AE1AAD1C17F399560046614F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swinging Chicken";
+			productName = "Swinging Chicken";
+			productReference = AE1AAD1E17F399560046614F /* Swinging Chicken.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE1AAD3E17F399560046614F /* Swinging ChickenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1AAD5317F399560046614F /* Build configuration list for PBXNativeTarget "Swinging ChickenTests" */;
+			buildPhases = (
+				AE1AAD3B17F399560046614F /* Sources */,
+				AE1AAD3C17F399560046614F /* Frameworks */,
+				AE1AAD3D17F399560046614F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE1AAD4517F399560046614F /* PBXTargetDependency */,
+			);
+			name = "Swinging ChickenTests";
+			productName = "Swinging ChickenTests";
+			productReference = AE1AAD3F17F399560046614F /* Swinging ChickenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE1AAD1617F399560046614F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SCH;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = josh;
+				TargetAttributes = {
+					AE1AAD3E17F399560046614F = {
+						TestTargetID = AE1AAD1D17F399560046614F;
+					};
+				};
+			};
+			buildConfigurationList = AE1AAD1917F399560046614F /* Build configuration list for PBXProject "Swinging Chicken" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE1AAD1517F399560046614F;
+			productRefGroup = AE1AAD1F17F399560046614F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE1AAD1D17F399560046614F /* Swinging Chicken */,
+				AE1AAD3E17F399560046614F /* Swinging ChickenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE1AAD1C17F399560046614F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1AAD3A17F399560046614F /* Images.xcassets in Resources */,
+				AE1AAD2C17F399560046614F /* InfoPlist.strings in Resources */,
+				AE1AAD3517F399560046614F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1AAD3D17F399560046614F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1AAD4B17F399560046614F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE1AAD1A17F399560046614F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1AAD2E17F399560046614F /* main.m in Sources */,
+				AE1AAD3217F399560046614F /* SCHAppDelegate.m in Sources */,
+				AE1AAD3817F399560046614F /* SCHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1AAD3B17F399560046614F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1AAD4D17F399560046614F /* Swinging_ChickenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE1AAD4517F399560046614F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE1AAD1D17F399560046614F /* Swinging Chicken */;
+			targetProxy = AE1AAD4417F399560046614F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE1AAD2A17F399560046614F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE1AAD2B17F399560046614F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE1AAD3317F399560046614F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE1AAD3417F399560046614F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE1AAD4917F399560046614F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE1AAD4A17F399560046614F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE1AAD4E17F399560046614F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE1AAD4F17F399560046614F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE1AAD5117F399560046614F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swinging Chicken/Swinging Chicken-Prefix.pch";
+				INFOPLIST_FILE = "Swinging Chicken/Swinging Chicken-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE1AAD5217F399560046614F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swinging Chicken/Swinging Chicken-Prefix.pch";
+				INFOPLIST_FILE = "Swinging Chicken/Swinging Chicken-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AE1AAD5417F399560046614F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swinging Chicken.app/Swinging Chicken";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swinging Chicken/Swinging Chicken-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swinging ChickenTests/Swinging ChickenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AE1AAD5517F399560046614F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swinging Chicken.app/Swinging Chicken";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swinging Chicken/Swinging Chicken-Prefix.pch";
+				INFOPLIST_FILE = "Swinging ChickenTests/Swinging ChickenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE1AAD1917F399560046614F /* Build configuration list for PBXProject "Swinging Chicken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1AAD4E17F399560046614F /* Debug */,
+				AE1AAD4F17F399560046614F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE1AAD5017F399560046614F /* Build configuration list for PBXNativeTarget "Swinging Chicken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1AAD5117F399560046614F /* Debug */,
+				AE1AAD5217F399560046614F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE1AAD5317F399560046614F /* Build configuration list for PBXNativeTarget "Swinging ChickenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1AAD5417F399560046614F /* Debug */,
+				AE1AAD5517F399560046614F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE1AAD1617F399560046614F /* Project object */;
+}
