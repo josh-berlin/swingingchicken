@@ -1,6 +1,6 @@
 //
 //  SCHViewController.h
-//  Swinging Chicken
+//  SwingingChicken
 //
 //  Created by Josh Berlin on 9/25/13.
 //  Copyright (c) 2013 josh. All rights reserved.
